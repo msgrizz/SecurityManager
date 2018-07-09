@@ -11,16 +11,13 @@
 		08AD0DDF726FC8774869614DBAEBBC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		215EFD73620A6AB259398879D0171652 /* Pods-SecurityManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C83FEBC0332FA78CB16D7193C199A5A2 /* Pods-SecurityManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F5FBEB9167D3CE7C6F554BDFA7810B3 /* Pods-SecurityManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DEC93A7989FC067D75035D667EB8A3 /* Pods-SecurityManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52B6DAD403709759DD52EE3E14BD4898 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D87B6E04AF7430257754A6A07FB45D48 /* ReplaceMe.m */; };
 		53F6C42089B3CE3253A6816525110C9B /* Pods-SecurityManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DCAE20A37ABCCF64CA99D71088FEEC /* Pods-SecurityManager_Tests-dummy.m */; };
 		BAE69A88801053BBC6F1E1F15BF2EFC2 /* Pods-SecurityManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2712F6C227B896966E995F6C4FE65C09 /* Pods-SecurityManager_Example-dummy.m */; };
 		C1F000212AEBC51FD92EBABF038657B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C6220E6B638921CDD1BEC817605190AA /* SecurityManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A4F6ACF86045360928F5349C91BC62 /* SecurityManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA92A1F381D0EE4EE1F42AC8ABFB1829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EB3C208520F3889F00592CE3 /* SecurityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C207D20F3889E00592CE3 /* SecurityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB3C208620F3889F00592CE3 /* jailbreakCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C207E20F3889E00592CE3 /* jailbreakCheck.h */; };
 		EB3C208720F3889F00592CE3 /* SecurityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3C207F20F3889E00592CE3 /* SecurityManager.m */; };
-		EB3C208820F3889F00592CE3 /* debugCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C208020F3889E00592CE3 /* debugCheck.h */; };
 		EB3C208920F3889F00592CE3 /* fileCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C208120F3889E00592CE3 /* fileCheck.h */; };
 		EB3C208A20F3889F00592CE3 /* forkCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C208220F3889F00592CE3 /* forkCheck.h */; };
 		EB3C208B20F3889F00592CE3 /* libASM.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3C208320F3889F00592CE3 /* libASM.h */; };
@@ -69,11 +66,8 @@
 		C83FEBC0332FA78CB16D7193C199A5A2 /* Pods-SecurityManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecurityManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		CF891FD771A8C4271E03EF4E020C2BF5 /* Pods-SecurityManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecurityManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D052887958798CE5AB6E91AC6DE69D3C /* Pods-SecurityManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecurityManager_Example.modulemap"; sourceTree = "<group>"; };
-		D87B6E04AF7430257754A6A07FB45D48 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SecurityManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EB3C207D20F3889E00592CE3 /* SecurityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecurityManager.h; path = SecurityManager/Classes/SecurityManager.h; sourceTree = "<group>"; };
-		EB3C207E20F3889E00592CE3 /* jailbreakCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jailbreakCheck.h; path = SecurityManager/Classes/jailbreakCheck.h; sourceTree = "<group>"; };
 		EB3C207F20F3889E00592CE3 /* SecurityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecurityManager.m; path = SecurityManager/Classes/SecurityManager.m; sourceTree = "<group>"; };
-		EB3C208020F3889E00592CE3 /* debugCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debugCheck.h; path = SecurityManager/Classes/debugCheck.h; sourceTree = "<group>"; };
 		EB3C208120F3889E00592CE3 /* fileCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fileCheck.h; path = SecurityManager/Classes/fileCheck.h; sourceTree = "<group>"; };
 		EB3C208220F3889F00592CE3 /* forkCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = forkCheck.h; path = SecurityManager/Classes/forkCheck.h; sourceTree = "<group>"; };
 		EB3C208320F3889F00592CE3 /* libASM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libASM.h; path = SecurityManager/Classes/libASM.h; sourceTree = "<group>"; };
@@ -172,15 +166,12 @@
 		A6ACC276C1863C9E0C6A22CAC793FE54 /* SecurityManager */ = {
 			isa = PBXGroup;
 			children = (
-				D87B6E04AF7430257754A6A07FB45D48 /* ReplaceMe.m */,
-				EB3C208020F3889E00592CE3 /* debugCheck.h */,
-				EB3C208120F3889E00592CE3 /* fileCheck.h */,
-				EB3C208220F3889F00592CE3 /* forkCheck.h */,
-				EB3C207E20F3889E00592CE3 /* jailbreakCheck.h */,
-				EB3C208320F3889F00592CE3 /* libASM.h */,
-				EB3C208420F3889F00592CE3 /* readSys.s */,
 				EB3C207D20F3889E00592CE3 /* SecurityManager.h */,
 				EB3C207F20F3889E00592CE3 /* SecurityManager.m */,
+				EB3C208120F3889E00592CE3 /* fileCheck.h */,
+				EB3C208220F3889F00592CE3 /* forkCheck.h */,
+				EB3C208320F3889F00592CE3 /* libASM.h */,
+				EB3C208420F3889F00592CE3 /* readSys.s */,
 				34FECF2DF2FBB2C66BB164E146D56351 /* Pod */,
 				F7137E5ECA30FFE9073E73B1423C6F72 /* Support Files */,
 			);
@@ -270,8 +261,6 @@
 				EB3C208B20F3889F00592CE3 /* libASM.h in Headers */,
 				EB3C208520F3889F00592CE3 /* SecurityManager.h in Headers */,
 				215EFD73620A6AB259398879D0171652 /* Pods-SecurityManager_Example-umbrella.h in Headers */,
-				EB3C208620F3889F00592CE3 /* jailbreakCheck.h in Headers */,
-				EB3C208820F3889F00592CE3 /* debugCheck.h in Headers */,
 				EB3C208920F3889F00592CE3 /* fileCheck.h in Headers */,
 				EB3C208A20F3889F00592CE3 /* forkCheck.h in Headers */,
 			);
@@ -375,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B6DAD403709759DD52EE3E14BD4898 /* ReplaceMe.m in Sources */,
 				000D95409875C32BC816483BA481D4F2 /* SecurityManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
