@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SecurityManager'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Application level, attached debug detect and jailbreak checking'
 
   s.description      = <<-DESC
