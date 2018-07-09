@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   #7.
   s.platform            = :ios, "8.0"
   #8.
-  s.source              = { :git => "https://github.com/msgrizz/SecurityManager.gi", :tag => "1.0.0" }
+  s.source              = { :git => "https://github.com/msgrizz/SecurityManager.git", :tag => "1.0.0" }
   #9.
   s.source_files     = "SecurityManager", "SecurityManager/**/*.{h,m,swift}"
 end
