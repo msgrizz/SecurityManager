@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SecurityManager_Example' do
+  pod 'SecurityManager', :path => '../'
+
+  target 'SecurityManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

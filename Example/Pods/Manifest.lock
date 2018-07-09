@@ -1,0 +1,16 @@
+PODS:
+  - SecurityManager (0.1.0)
+
+DEPENDENCIES:
+  - SecurityManager (from `../`)
+
+EXTERNAL SOURCES:
+  SecurityManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SecurityManager: e328e705010692055c5f5c4717da5393079cc29e
+
+PODFILE CHECKSUM: 56dd47b4f46bef9a338f7097e91d11abb3067f8f
+
+COCOAPODS: 1.4.0
